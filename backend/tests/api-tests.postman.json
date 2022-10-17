@@ -8,7 +8,7 @@
   },
   "item": [{
       "name": "Auth",
-      "description": "",
+      "title": " ",
       "item": [{
           "name": "Register",
           "event": [{
