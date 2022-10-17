@@ -2,12 +2,14 @@ import Banner from "./Banner";
 import MainView from "./MainView";
 import React from "react";
 import Tags from "./Tags";
+import Title from "./Titles";
 import agent from "../../agent";
 import { connect } from "react-redux";
 import {
   HOME_PAGE_LOADED,
   HOME_PAGE_UNLOADED,
   APPLY_TAG_FILTER,
+  APPLY_TITLE_FILTER,
 } from "../../constants/actionTypes";
 
 const Promise = global.Promise;
